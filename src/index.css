@@ -1,13 +1,81 @@
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    margin: 0;
+    font-family: "Playfair Display", cursive, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #000; /* White text for good contrast */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.compliment-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+  color: #000; /* Font color for contrast */
+}
+
+.compliment-display h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.compliment-display p {
+  font-size: 36px;
+  line-height: 1.6;
+}
+
+.compliment-display img {
+  width: 300px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.compliment-display button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.loader {
+  width: 50px;
+  aspect-ratio: 1;
+  color:#000;
+  background:
+   radial-gradient(circle at 60% 65%, currentColor 62%, #0000 65%) top left,
+   radial-gradient(circle at 40% 65%, currentColor 62%, #0000 65%) top right,
+   linear-gradient(to bottom left, currentColor 42%,#0000 43%) bottom left ,
+   linear-gradient(to bottom right,currentColor 42%,#0000 43%) bottom right;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.loader:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: inherit;
+  opacity: 0.4;
+  animation: l3 1s infinite;
+}
+@keyframes l3 {
+  to {transform:scale(1.8);opacity:0}
 }
