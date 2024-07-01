@@ -23,15 +23,18 @@ const Header = () => {
 
   return (
     <header className="header">
-      <img src={logo} alt="Logo" className="logo" />
-      <div className="header-content">
-        <span className="tagline">365 Days of Love</span>
-      </div>
-      <div className="countdown">
-        <span>Countdown</span>
-        <span>{timeLeft}</span>
-      </div>
-    </header>
+  <div className="logo-section">
+    <img src={logo} alt="Logo" className="logo" />
+  </div>
+  <div className="tagline-section">
+    <span className="tagline">365 Days of Love</span>
+  </div>
+  <div className="countdown-section">
+    <span className="countdown-label">Countdown to next message</span>
+    <span className="countdown">{timeLeft}</span>
+  </div>
+</header>
+
   );
 };
 

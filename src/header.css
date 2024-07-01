@@ -1,13 +1,19 @@
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Distribute space between children */
+  justify-content: space-between; /* Distribute space between sections */
   padding: 10px 20px;
   font-family: "Playfair Display", cursive, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   background: rgb(240,127,176);
   background: radial-gradient(circle, rgba(240,127,176,1) 12%, rgba(23,119,232,1) 100%);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
   transition: height 0.3s ease-in-out; /* Smooth transition for height changes */
+}
+
+.logo-section {
+  flex: 1; /* Occupy remaining space */
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -17,11 +23,10 @@
   border-radius: 2rem;
 }
 
-.header-content {
+.tagline-section {
+  flex: 1; /* Occupy remaining space */
   display: flex;
-  flex: 1;
-  justify-content: center;
-  overflow: hidden; /* Prevent text overflow */
+  justify-content: center; /* Center tagline horizontally */
 }
 
 .tagline {
@@ -31,12 +36,17 @@
   white-space: nowrap; /* Prevent text wrapping */
 }
 
-.countdown {
+.countdown-section {
+  flex: 1; /* Occupy remaining space */
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center countdown items horizontally */
-  text-align: center; /* Center countdown text */
+  align-items: right; /* right countdown items horizontally */
+  text-align: right; /* right countdown text */
   font-size: 24px;
+}
+
+.countdown-label {
+  margin-bottom: 5px;
 }
 
 @media (max-width: 545px) {
@@ -55,5 +65,10 @@
 
   .tagline {
     font-size: 24px; /* Further reduce font size for smaller screens */
+  }
+
+  .countdown-section {
+    align-items: center; 
+    text-align: center; 
   }
 }
