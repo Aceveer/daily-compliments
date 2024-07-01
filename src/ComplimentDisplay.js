@@ -38,11 +38,11 @@ const ComplimentDisplay = () => {
           <p className='loader'></p>
           <p className='loader'></p>
           <p className='loader'></p>
+          <p className='loader'></p>
         </>
       ) : (
         complimentData && (
           <>
-            <h2>Day {complimentData.id}</h2>
             <p><strong>{complimentData.topic}:</strong> {complimentData.compliment}</p>
             <p><strong>Reason:</strong> {complimentData.desc}</p>
             {complimentData.imageUrl && (
