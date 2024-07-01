@@ -31,7 +31,7 @@ const ComplimentDisplay = () => {
   return (
     <div className="compliment-display">
       {loading ? (
-        <>
+        <div>
           <p className='loader'></p>
           <p className='loader'></p>
           <p className='loader'></p>
@@ -39,11 +39,11 @@ const ComplimentDisplay = () => {
           <p className='loader'></p>
           <p className='loader'></p>
           <p className='loader'></p>
-        </>
+        </div>
       ) : (
         complimentData && (
           <>
-            <p><strong>{complimentData.topic}:</strong> {complimentData.compliment}</p>
+            <p><strong>{complimentData.topic}:</strong> <span className="hoverable">{complimentData.compliment}</span></p>
             <p><strong>Reason:</strong> {complimentData.desc}</p>
             {complimentData.imageUrl && (
               <img src={require(`./images/${complimentData.imageUrl}`)} alt="Compliment" />

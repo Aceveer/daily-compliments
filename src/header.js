@@ -1,13 +1,35 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './header.css'; 
 import logo from './images/header-logo.png'; 
 
 const Header = () => {
+  const [timeLeft, setTimeLeft] = useState('');
+
+  useEffect(() => {
+    const calculateTimeLeft = () => {
+      const now = new Date();
+      const nextDay = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 0, 0);
+      const timeDiff = nextDay - now;
+      const hours = String(Math.floor(timeDiff / 3600000)).padStart(2, '0');
+      const minutes = String(Math.floor((timeDiff % 3600000) / 60000)).padStart(2, '0');
+      const seconds = String(Math.floor((timeDiff % 60000) / 1000)).padStart(2, '0');
+      setTimeLeft(`${hours}:${minutes}:${seconds}`);
+    };
+
+    const timerId = setInterval(calculateTimeLeft, 1000);
+
+    return () => clearInterval(timerId);
+  }, []);
+
   return (
     <header className="header">
       <img src={logo} alt="Logo" className="logo" />
       <div className="header-content">
         <span className="tagline">365 Days of Love</span>
+      </div>
+      <div className="countdown">
+        <span>Countdown</span>
+        <span>{timeLeft}</span>
       </div>
     </header>
   );

@@ -79,3 +79,8 @@ code {
 @keyframes l3 {
   to {transform:scale(1.8);opacity:0}
 }
+
+.hoverable:hover {
+  color: #ff69b4; /* Change to your desired hover color */
+  cursor: pointer; /* Optional: Change cursor to pointer on hover */
+}
