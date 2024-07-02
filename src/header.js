@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import './header.css'; 
-import logo from './images/header-logo.png'; 
+import logo from './images/header-logo.png';
+import MeWowSidebar from './MeWowSidebar';
 
 const Header = () => {
   const [timeLeft, setTimeLeft] = useState('');
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   useEffect(() => {
     const calculateTimeLeft = () => {
@@ -21,20 +23,32 @@ const Header = () => {
     return () => clearInterval(timerId);
   }, []);
 
-  return (
-    <header className="header">
-  <div className="logo-section">
-    <img src={logo} alt="Logo" className="logo" />
-  </div>
-  <div className="tagline-section">
-    <span className="tagline">365 Days of Love</span>
-  </div>
-  <div className="countdown-section">
-    <span className="countdown-label">Countdown to next message</span>
-    <span className="countdown">{timeLeft}</span>
-  </div>
-</header>
+  const openSidebar = () => {
+    setIsSidebarOpen(true);
+  };
 
+  const closeSidebar = () => {
+    setIsSidebarOpen(false);
+  };
+
+  return (
+    <>
+      <header className="header">
+        <div className="logo-section">
+          <img src={logo} alt="Logo" className="logo" />
+        </div>
+        <div className="tagline-section">
+          <button className="api-button" onClick={openSidebar}>Me-Wow</button>
+          <span className="tagline">365 Days of Love</span>
+          <button className="api-button">Doggo</button>
+        </div>
+        <div className="countdown-section">
+          <span className="countdown-label">Countdown to next message</span>
+          <span className="countdown">{timeLeft}</span>
+        </div>
+      </header>
+      <MeWowSidebar isOpen={isSidebarOpen} onClose={closeSidebar} />
+    </>
   );
 };
 

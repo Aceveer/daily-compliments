@@ -34,9 +34,10 @@
 }
 
 .tagline-section {
-  flex: 1; /* Occupy remaining space */
+  flex: 3; /* Occupy remaining space */
   display: flex;
-  justify-content: center; /* Center tagline horizontally */
+  align-items: center;
+  justify-content: space-evenly; /* Evenly space items */
 }
 
 .tagline {
@@ -44,6 +45,21 @@
   font-size: 40px;
   text-align: center;
   white-space: nowrap; /* Prevent text wrapping */
+}
+
+.api-button {
+  background-color: #ff4f99  ; /* Pink background color */
+  color: #000; /* White text color */
+  font-weight: 600;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.api-button:hover {
+  background-color: #ff1493; /* Darker pink on hover */
 }
 
 .countdown-section {
@@ -59,9 +75,24 @@
   margin-bottom: 5px;
 }
 
+@media (max-width: 1024px) {
+  .tagline-section {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .api-button {
+    margin-top: 10px; /* Add spacing between tagline and buttons */
+  }
+}
+
+
 @media (max-width: 545px) {
   .tagline {
     font-size: 32px; /* Adjust font size for smaller screens */
+  }
+  .countdown-section {
+    font-size: 16px;
   }
 }
 

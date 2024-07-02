@@ -80,7 +80,14 @@ code {
   to {transform:scale(1.8);opacity:0}
 }
 
-.hoverable:hover {
-  color: #ff69b4; /* Change to your desired hover color */
-  cursor: pointer; /* Optional: Change cursor to pointer on hover */
+@media (max-width: 545px) {
+  .compliment-display p {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .compliment-display p {
+    font-size: 18px;
+  }
 }

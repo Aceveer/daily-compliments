@@ -1,0 +1,110 @@
+.mewow-sidebar {
+  position: fixed;
+  top: 0;
+  left: -33%; /* Off-screen initially */
+  bottom: 0;
+  width: 33%; 
+  background: #DD66C4;
+  background: linear-gradient(135deg, #DD66C4, #FFC6E8);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, left 0.3s ease; /* Smooth transitions */
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.mewow-sidebar.open {
+  left: 0; /* Slide in from the left when open */
+}
+
+.sidebar-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.close-button {
+  background-color: #FFFFFF; /* White for contrast */
+  color: #DD66C4; /* Match the lighter color of the gradient */
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.close-button:hover {
+  background-color: #FFC6E8; /* Lighter shade of the gradient on hover */
+  color: #DD66C4; /* Keep text color consistent */
+}
+
+.sidebar-inner-content {
+  flex: 1;
+}
+
+.cat-image {
+  width: 100%; /* Make the image width 100% of the container */
+  max-height: 300px; /* Set the maximum height to 300px */
+  object-fit: contain; /* Ensure the image maintains its aspect ratio */
+  margin-bottom: 20px; /* Add some space below the image */
+}
+
+.generate-button {
+  background-color: #FFFFFF; /* White for contrast */
+  color: #DD66C4; /* Match the lighter color of the gradient */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.generate-button:hover {
+  background-color: #FFC6E8; /* Lighter shade of the gradient on hover */
+  color: #DD66C4; /* Keep text color consistent */
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent dark background */
+  z-index: 999; /* Ensure it's above other content but below the sidebar */
+}
+
+@media (max-width: 768px) {
+  .mewow-sidebar {
+    width: 100%; /* Full width on smaller screens */
+    left: -100%; /* Off-screen initially */
+  }
+  .mewow-sidebar.open {
+    left: 0; /* Slide in from the left when open */
+  }
+}
+
+/* HTML: <div class="loader"></div> */
+.loader-cat {
+  width: calc(6*30px);
+  height: 50px;
+  display: flex;
+  color: #8d7958;
+  filter: drop-shadow(30px 25px 0 currentColor) drop-shadow(60px 0 0 currentColor) drop-shadow(120px 0 0 currentColor);
+  clip-path: inset(0 100% 0 0);
+  animation: l12 2s infinite steps(7);
+}
+.loader-cat:before {
+  content: "";
+  width: 30px;
+  height: 25px;
+  --c:no-repeat radial-gradient(farthest-side,currentColor 92%,#0000);
+  background: 
+    var(--c) left /70% 70%,
+    var(--c) right/20% 20%,
+    var(--c) top    0 right 15%/20% 20%,
+    var(--c) bottom 0 right 15%/20% 20%;
+}
+@keyframes l12 {
+  100% {clip-path: inset(0 -30px 0 0)}
+}
