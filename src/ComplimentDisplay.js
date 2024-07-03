@@ -5,6 +5,7 @@ import compliments from './compliments';
 const ComplimentDisplay = () => {
   const [complimentData, setComplimentData] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [isFlipped, setIsFlipped] = useState(false);
 
   useEffect(() => {
     fetchCompliment();
@@ -19,13 +20,22 @@ const ComplimentDisplay = () => {
 
       await new Promise(resolve => setTimeout(resolve, 1000));
 
-      const compliment = compliments[dayOfYear % compliments.length];
+      // const compliment = compliments[dayOfYear % compliments.length];
+      const compliment = compliments[5];
       setComplimentData(compliment);
       setLoading(false);
     } catch (error) {
       console.error('Error fetching compliment:', error);
       setLoading(false);
     }
+  };
+
+  const handleMouseEnter = () => {
+    setIsFlipped(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsFlipped(false);
   };
 
   return (
@@ -46,7 +56,22 @@ const ComplimentDisplay = () => {
             <p><strong>{complimentData.topic}:</strong> <span className="hoverable">{complimentData.compliment}</span></p>
             <p><strong>Reason:</strong> {complimentData.desc}</p>
             {complimentData.imageUrl && (
-              <img src={require(`./images/${complimentData.imageUrl}`)} alt="Compliment" />
+              <div
+                className={`card ${isFlipped ? 'flipped' : ''}`}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+              >
+                <div className="card-inner">
+                  <div className="card-front">
+                    <img src={require(`./images/${complimentData.imageUrl}`)} alt="Compliment" />
+                  </div>
+                  <div className="card-back">
+                    <p>
+                      <strong>{complimentData.backTitle}</strong> : {complimentData.backMessage}
+                      </p>
+                  </div>
+                </div>
+              </div>
             )}
           </>
         )
