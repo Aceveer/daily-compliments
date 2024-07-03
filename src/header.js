@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 import './header.css'; 
 import logo from './images/header-logo.png';
 import MeWowSidebar from './MeWowSidebar';
+import DoggoSidebar from './DoggoSidebar';
 
 const Header = () => {
   const [timeLeft, setTimeLeft] = useState('');
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [isSidebarOpenCat, setIsSidebarOpenCat] = useState(false);
+  const [isSidebarOpenDog, setIsSidebarOpenDog] = useState(false);
 
   useEffect(() => {
     const calculateTimeLeft = () => {
@@ -23,12 +26,20 @@ const Header = () => {
     return () => clearInterval(timerId);
   }, []);
 
-  const openSidebar = () => {
-    setIsSidebarOpen(true);
+  const openSidebar = (item) => {
+    if (item === "Cat") {
+      setIsSidebarOpenCat(true);
+      setIsSidebarOpenDog(false); // Ensure dog sidebar is closed
+    }
+    if (item === "Dog") {
+      setIsSidebarOpenDog(true);
+      setIsSidebarOpenCat(false); // Ensure cat sidebar is closed
+    }
   };
 
-  const closeSidebar = () => {
-    setIsSidebarOpen(false);
+  const closeSidebar = (item) => {
+    if (item === "Cat") setIsSidebarOpenCat(false);
+    if (item === "Dog") setIsSidebarOpenDog(false);
   };
 
   return (
@@ -38,16 +49,17 @@ const Header = () => {
           <img src={logo} alt="Logo" className="logo" />
         </div>
         <div className="tagline-section">
-          <button className="api-button" onClick={openSidebar}>Me-Wow</button>
+          <button className="api-button" onClick={() => openSidebar("Cat")}>Me-Wow</button>
           <span className="tagline">365 Days of Love</span>
-          <button className="api-button">Doggo</button>
+          <button className="api-button" onClick={() => openSidebar("Dog")}>Doggo</button>
         </div>
         <div className="countdown-section">
           <span className="countdown-label">Countdown to next message</span>
           <span className="countdown">{timeLeft}</span>
         </div>
       </header>
-      <MeWowSidebar isOpen={isSidebarOpen} onClose={closeSidebar} />
+      <MeWowSidebar isOpen={isSidebarOpenCat} onClose={() => closeSidebar("Cat")} onOpenOther={() => openSidebar("Dog")} />
+      <DoggoSidebar isOpen={isSidebarOpenDog} onClose={() => closeSidebar("Dog")} onOpenOther={() => openSidebar("Cat")} />
     </>
   );
 };

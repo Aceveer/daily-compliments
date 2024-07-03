@@ -49,7 +49,7 @@
   margin-bottom: 20px; /* Add some space below the image */
 }
 
-.generate-button {
+.generate-button, .switch-button {
   background-color: #FFFFFF; /* White for contrast */
   color: #DD66C4; /* Match the lighter color of the gradient */
   border: none;
@@ -57,9 +57,10 @@
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin: 10px;
 }
 
-.generate-button:hover {
+.generate-button:hover, .switch-button:hover {
   background-color: #FFC6E8; /* Lighter shade of the gradient on hover */
   color: #DD66C4; /* Keep text color consistent */
 }
@@ -89,7 +90,7 @@
   width: calc(6*30px);
   height: 50px;
   display: flex;
-  color: #8d7958;
+  color: rgb(40, 34, 34);
   filter: drop-shadow(30px 25px 0 currentColor) drop-shadow(60px 0 0 currentColor) drop-shadow(120px 0 0 currentColor);
   clip-path: inset(0 100% 0 0);
   animation: l12 2s infinite steps(7);
@@ -107,4 +108,24 @@
 }
 @keyframes l12 {
   100% {clip-path: inset(0 -30px 0 0)}
+}
+
+@media (max-width: 768px) {
+  .mewow-sidebar {
+    width: 50%; /* 50% of screen width on smaller screens */
+    left: -50%; /* Off-screen initially */
+  }
+  .mewow-sidebar.open {
+    left: 0; /* Slide in from the left when open */
+  }
+}
+
+@media (max-width: 480px) {
+  .mewow-sidebar {
+    width: 70%; /* 50% of screen width on smaller screens */
+    left: -100%; /* Off-screen initially */
+  }
+  .mewow-sidebar.open {
+    left: 0; /* Slide in from the left when open */
+  }
 }

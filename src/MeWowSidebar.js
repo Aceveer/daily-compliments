@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './MeWowSidebar.css';
 
-const MeWowSidebar = ({ isOpen, onClose }) => {
+const MeWowSidebar = ({ isOpen, onClose, onOpenOther }) => {
   const [catImage, setCatImage] = useState(null);
   const [loading, setLoading] = useState(false);
 
@@ -37,15 +37,20 @@ const MeWowSidebar = ({ isOpen, onClose }) => {
             Close
           </button>
           <div className="sidebar-inner-content">
-            <h2>Me-Wow Content</h2>
+            <h2>Pss Pss Pss Pss</h2>
             {loading ? (
               <p className='loader-cat'></p>
             ) : (
               catImage && <img src={catImage} alt="Cat" className="cat-image" />
             )}
-            <button className="generate-button" onClick={fetchCatImage}>
-              New Purr-spective
-            </button>
+             <div className='sidebar-buttons'>
+              <button className="generate-button" onClick={fetchCatImage}>
+                New Purr-spective
+              </button>
+              <button className="switch-button" onClick={onOpenOther}>
+                Switch to Doggo
+              </button>
+              </div>
           </div>
         </div>
       </div>
