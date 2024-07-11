@@ -20,8 +20,8 @@ const ComplimentDisplay = () => {
 
       await new Promise(resolve => setTimeout(resolve, 1000));
 
-      // const compliment = compliments[dayOfYear % compliments.length];
-      const compliment = compliments[19];
+      const compliment = compliments[dayOfYear % compliments.length];
+      // const compliment = compliments[24];
       setComplimentData(compliment);
       setLoading(false);
     } catch (error) {

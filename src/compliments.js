@@ -178,8 +178,52 @@ const compliments = [
         imageUrl: "20.jpg",
         backTitle: "Encouraging",
         backMessage: "Building cute things for you - Learning new technologies for me. Win-win situation."
-      }
-
+      },
+      {
+        id: 21,
+        topic: "Our Hopeful Future",
+        compliment: "Waking Up Beside You",
+        desc: "I always love starting my day with your texts or video calls. It just gets me so happy. And having you next to me for the rest of my life, to wake you up and annoy you, is exactly what I'm looking for.",
+        imageUrl: "21.jpg",
+        backTitle: "Happy Ever After",
+        backMessage: "Just imagining my life with you, waking up to your beautiful face and kissing it is what gets me going every day."
+      },
+      {
+        id: 22,
+        topic: "Our Hopeful Future",
+        compliment: "Cooking, Laundry & Dishes",
+        desc: "No matter what we do, whenever we do something together, I just feel more enthusiastic and excited for it. Your company and presence just makes everything so much better, and together, it's always fun.",
+        imageUrl: "22.jpg",
+        backTitle: "Quality Time",
+        backMessage: "Boring old house chores would be so much fun together. We'll make a mess, share kisses, and have a great time."
+      },
+      {
+        id: 23,
+        topic: "Our Hopeful Future",
+        compliment: "Game Nights",
+        desc: "You've introduced me to some really fun games, which we've both grown so fond of. With all the time in the world, I can't wait to go head to head with you on so many new games, be a sore loser when you win, or rub it in your face when I wreck you. Or we could team up and play together on the same team in some of the games you really love the animations of.",
+        imageUrl: "23.jpg",
+        backTitle: "Competitive Partners",
+        backMessage: "Snakes & Ladders, Ludo, Project L, Azul. I know I won't sleep until I beat you at least once in the game we play."
+      },
+      {
+        id: 24,
+        topic: "Our Hopeful Future",
+        compliment: "Passenger Princess",
+        desc: "I love driving you around, with you navigating and giving me wrong directions, or giving directions after I've already passed the turn. Or even listening to music and jamming together, singing so loud. I love having you around and pampering, I'm always going to treat you as my passenger princess for as long as I'm around.",
+        imageUrl: "24.jpg",
+        backTitle: "Long Drives",
+        backMessage: "With our SUV, I'll take you wherever we want. But you know what I get in return."
+      },
+      {
+        id: 25,
+        topic: "Our Hopeful Future",
+        compliment: "Cosmetics, Shampoos & Creams",
+        desc: "I've started applying sunscreen because of you. I remember how mad you got when I wasn't buying sunscreen before leaving for Australia. We had such a big fight over it too. But now, I feel I'll slowly start using your skincare products, follow your routines and finish your bottles.",
+        imageUrl: "25.jpg",
+        backTitle: "",
+        backMessage: ""
+      },
   ];
 
   module.exports = compliments;
