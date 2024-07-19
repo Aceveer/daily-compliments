@@ -221,9 +221,90 @@ const compliments = [
         compliment: "Cosmetics, Shampoos & Creams",
         desc: "I've started applying sunscreen because of you. I remember how mad you got when I wasn't buying sunscreen before leaving for Australia. We had such a big fight over it too. But now, I feel I'll slowly start using your skincare products, follow your routines and finish your bottles.",
         imageUrl: "25.jpg",
-        backTitle: "",
-        backMessage: ""
+        backTitle: "Cream Thief",
+        backMessage: "I already know that I'm going to be using all your skincare bottles and do face masks together"
       },
+      {
+        id: 26,
+        topic: "Our Hopeful Future",
+        compliment: "Sick Days",
+        desc: "Taking care of you is something I really love doing. Pampering you with gifts, loving you and hugging you, holding you close and just kissing you affectionately, is exactly what I want. And especially when you fall sick, you're going to get the bonus treatment, even though it may mean that I fall sick too. I just want to take care of you.",
+        imageUrl: "26.jpg",
+        backTitle: "Care-lover",
+        backMessage: "Bed rest, massages, food in bed. Princess treatment for my baby."
+      },
+      {
+        id: 27,
+        topic: "Our Hopeful Future",
+        compliment: "World Tour",
+        desc: "I'm never going to stop trying to woo you. It feels like we're still in our honeymoon phase and it's such a flex. We can follow the 2-2-2 principle and make sure we go out once every 2 weeks, take a mini weekend trip every 2 months, and a nice trip once every 2 years.",
+        imageUrl: "27.jpg",
+        backTitle: "25 Countries",
+        backMessage: "I can see us traveling the world, with you as my world."
+      },
+      {
+        id: 28,
+        topic: "Our Hopeful Future",
+        compliment: "Goodnight Kisses",
+        desc: "I want to start the day with you and end the day with you. I can never stop thinking about kissing your lips, having you with me anytime to kiss those wonderful lips. I know I've won in life.",
+        imageUrl: "28.jpg",
+        backTitle: "Butterflies",
+        backMessage: "Starting and ending each day on a high note."
+      },
+      {
+        id: 29,
+        topic: "Our Hopeful Future",
+        compliment: "TS Karaoke Nights",
+        desc: "We always jam to TS, whether on Discord, when we meet, or together. It's our go-to music choice for anything, from upbeat dance songs to romantic ballads for slow dances.",
+        imageUrl: "29.jpg",
+        backTitle: "Sing & Dance",
+        backMessage: "We have our own playlist full of our favorite songs."
+      },
+      {
+        id: 30,
+        topic: "Our Hopeful Future",
+        compliment: "Plain & Simple",
+        desc: "Everyday doesn't have to be grand, special or this big event. I've got you, and that's all I could ever ask for. Life together is what both of us have wanted for so long, and now we have it. I don't need anything else.",
+        imageUrl: "30.jpg",
+        backTitle: "Cloud 9",
+        backMessage: "We can have simple days where we just lay down, and relax together."
+      },
+      {
+        id: 31,
+        topic: "Our Hopeful Future",
+        compliment: "Pet Peeves",
+        desc: "I'm not much of a pet person, but I know how much you love dogs and cats. I've started liking them especially since we relate with so many of the reels and posts we send to each other. I think you've made me a pet person because of this.",
+        imageUrl: "31.jpg",
+        backTitle: "Doggos and Kitties",
+        backMessage: "We can adopt a kitty and be a family of 3!"
+      },
+      {
+        id: 32,
+        topic: "Our Hopeful Future",
+        compliment: "Serenading",
+        desc: "I love singing songs together. And I love singing songs for you, to you. With my guitar, I'd sing all the romantic songs in the world for you, and woo you all over again. Beautiful Girls, Just The Way You Are, and many more cheesy love songs just for you.",
+        imageUrl: "32.jpg",
+        backTitle: "Can't Help Falling In Love",
+        backMessage: "Let me woo you everytime, with a guitar and my voice."
+      },
+      {
+        id: 33,
+        topic: "Our Hopeful Future",
+        compliment: "Pretty Florals",
+        desc: "I know just how much you love it when I get you flowers. And I always love the look on your face when you do see them. It's priceless. Getting you flowers is honestly the best way to your heart, and you always take such good care of them till the end.",
+        imageUrl: "33.jpg",
+        backTitle: "Carnations, Roses & Lilies",
+        backMessage: "Surprise you with flowers after work, all the time."
+      },
+      {
+        id: 34,
+        topic: "Our Hopeful Future",
+        compliment: "Arcade Dates",
+        desc: "I've made you such a sucker for these arcade games. I'm sure you wouldn't have ever come to arcades, but here we are. Playing a whole bunch of games, the claw machine, the building stacking, ball drop, and what not. I love how competetive you are with me and how much we enjoy the arcade center together.",
+        imageUrl: "34.jpg",
+        backTitle: "Air Hockey",
+        backMessage: "Our go-to game to see who is the best."
+      }
   ];
 
   module.exports = compliments;
