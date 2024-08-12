@@ -304,6 +304,24 @@ const compliments = [
         imageUrl: "34.jpg",
         backTitle: "Air Hockey",
         backMessage: "Our go-to game to see who is the best."
+      },
+      {
+        id: 35,
+        topic: "Our Hopeful Future",
+        compliment: "Story Books",
+        desc: "I honestly still need to give reading a solid try, but you love it so much. I think we can spend some nice quality time together at night, just reading a book, before falling asleep. I always love listening to you talk about characters from a book, the tropes and how you always skip to the end.",
+        imageUrl: "35.jpg",
+        backTitle: "Fiction vs Self-Help",
+        backMessage: "We all know who the better reader category people are."
+      },
+      {
+        id: 36,
+        topic: "Our Hopeful Future",
+        compliment: "Grocery Shopping",
+        desc: "Going shopping with you would be really fun. We'd make a list, get our trolley and head into the store to find the items we're looking for. But we'd be lured into some really good offers and we'd convince each other that it's a steal. Making corny puns and jokes in different aisles as well. It's going to be so fun.",
+        imageUrl: "36.jpg",
+        backTitle: "Saving by Spending",
+        backMessage: "Girl Math might come into play here."
       }
   ];
 

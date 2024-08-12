@@ -15,13 +15,17 @@ const ComplimentDisplay = () => {
     try {
       setLoading(true);
 
+      const targetDate = new Date('2024-08-12');
       const currentDate = new Date();
-      const dayOfYear = Math.floor((currentDate - new Date(currentDate.getFullYear(), 0, 0)) / 86400000);
+
+      const differenceInTime = currentDate - targetDate;
+      const differenceInDays = Math.floor(differenceInTime / (1000 * 3600 * 24));
+
+      const complimentIndex = differenceInDays % compliments.length;
 
       await new Promise(resolve => setTimeout(resolve, 1000));
 
-      const compliment = compliments[dayOfYear % compliments.length];
-      // const compliment = compliments[33];
+      const compliment = compliments[complimentIndex];
       setComplimentData(compliment);
       setLoading(false);
     } catch (error) {

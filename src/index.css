@@ -132,11 +132,13 @@ code {
   object-fit: cover;
 }
 
+
+
 .card-back {
   transform: rotateY(180deg);
-  background: rgb(240,127,176);
-  background: linear-gradient(347deg, rgba(240,127,176,1) 18%, rgba(23,169,232,0.9595297591692927) 67%);
-  color: #333;
+  background: rgb(240, 127, 176);
+  background: radial-gradient(circle,  rgba(23, 119, 232, 1) 12%, rgba(240, 127, 176, 1) 100% );
+  color: #000;
   display: flex;
   justify-content: center;
   align-items: center;
