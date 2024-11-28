@@ -15,7 +15,7 @@ const ComplimentDisplay = () => {
     try {
       setLoading(true);
 
-      const targetDate = new Date('2024-08-12');
+      const targetDate = new Date('2024-10-20');
       const currentDate = new Date();
 
       const differenceInTime = currentDate - targetDate;
