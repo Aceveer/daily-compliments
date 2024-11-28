@@ -25,7 +25,8 @@ const ComplimentDisplay = () => {
 
       await new Promise(resolve => setTimeout(resolve, 1000));
 
-      const compliment = compliments[complimentIndex];
+      // const compliment = compliments[complimentIndex];
+      const compliment = compliments[59];
       setComplimentData(compliment);
       setLoading(false);
     } catch (error) {
