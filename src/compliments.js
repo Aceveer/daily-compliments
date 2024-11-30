@@ -538,6 +538,33 @@ const compliments = [
         imageUrl: "60.jpg",
         backTitle: "Lab Exam",
         backMessage: "Slow Processing Speed"
+      },
+      {
+        id: 61,
+        topic: "Our Magical Dates",
+        compliment: "22nd October, 2020",
+        desc: "Almost half a year later, during the pandemic, we met right outside Manyavar. You had to get some xerox and I forgot what I was doing that side. But we hugged, for so long and just spent a couple of minutes together. Even though it was short, it felt so nice to just hug you and hold you againt.",
+        imageUrl: "61.jpg",
+        backTitle: "Meet During COVID",
+        backMessage: "Stationary Shop"
+      },
+      {
+        id: 62,
+        topic: "Our Magical Dates",
+        compliment: "23rd December, 2020",
+        desc: "A day where I had my final research presentation and you had to come to PESU. For the longest time I kept teasing you by saying you had never come that side. And this day, you did, although you did have a bit of trouble finding the place but that was all good. You told your parents that you were going to Sandra's. We met at PESU and then I took your scooter and we rushed to Rizzy's. You met everyone, briefly said hi and spoke to them. My presentation started and you were outside the room for some time. Later you came in and we were just holding hands. Once the presentation was done, they were still talking and we started making out. You were a bit concerned and asked if I was on mute. The meeting was done and then we got busy. We spent so much time together that day and had so much quality time. I loved it. I'm not sure if this was the day you tried Taaza Thindi or the next, but whichever one it was, you were damn pissed that day xD. I dropped you off at the Petrol Station near Forum and twas a good end to the day!",
+        imageUrl: "62.jpg",
+        backTitle: "Rizzy's 1.0",
+        backMessage: "We Were Just Holding Hands"
+      },
+      {
+        id: 63,
+        topic: "Our Magical Dates",
+        compliment: "20th Febuary, 2021",
+        desc: "Another eventful day where I enjoyed having my meal. Turns out there was a lot of sound effects with it, especially the fact that there was a loudspeaker too. But it was about this time that we started exploring more of our intimate side and we were having so much fun. Especially being so comfortable with each other, completely exposed. Loved every bit of it",
+        imageUrl: "63.jpg",
+        backTitle: "Rizzy's 2.0",
+        backMessage: "My Loudspeaker"
       }
   ];
 
