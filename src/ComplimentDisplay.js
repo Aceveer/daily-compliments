@@ -21,7 +21,7 @@ const ComplimentDisplay = () => {
       const differenceInTime = currentDate - targetDate;
       const differenceInDays = Math.floor(differenceInTime / (1000 * 3600 * 24));
 
-      const complimentIndex = differenceInDays-1;
+      const complimentIndex = differenceInDays;
 
       await new Promise(resolve => setTimeout(resolve, 1000));
 
