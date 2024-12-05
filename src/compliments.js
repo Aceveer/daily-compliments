@@ -432,6 +432,15 @@ const compliments = [
         backMessage: "Yummy Treats ;)"
       },
       {
+        id: 72,
+        topic: "Our Magical Dates",
+        compliment: "12th March, 2019",
+        desc: "The day you got your scholarship in Christ for academics. My baby always out performing the rest of the class, especially when you say you don't study until the night before. None of your friends ever believe you but only I know the truth xD. You got your French A2 as well, and my baby as always is killing it.",
+        imageUrl: "72.jpg",
+        backTitle: "Schoalrship and French A2",
+        backMessage: "Sexy Scholar"
+      },
+      {
         id: 49,
         topic: "Our Magical Dates",
         compliment: "12th June, 2019",
@@ -565,6 +574,115 @@ const compliments = [
         imageUrl: "63.jpg",
         backTitle: "Rizzy's 2.0",
         backMessage: "My Loudspeaker"
+      },
+      {
+        id: 64,
+        topic: "Our Magical Dates",
+        compliment: "27th Febuary, 2021",
+        desc: "I started my internship and I was staying at a small hotel. I figured we could get guests to come in and nobody was going to be in the room. But the receptionist didn't let you in and that was such a huge headache. I felt so pissed off at that hotel and upset for making you come all the way. Luckily enough, we got to go around have some nice breakfast, so it was still a win?",
+        imageUrl: "64.jpg",
+        backTitle: "Hotel Fail but Breakfast Yay",
+        backMessage: "Pancakes with a Mood"
+      },
+      {
+        id: 65,
+        topic: "Our Magical Dates",
+        compliment: "12th March, 2021",
+        desc: "After moving into an apartment, we had such an amazing experience. You coming all the way from Kora to Whitefield. Me picking you up at the main road, and riding the scooter with you till the entrance. Spending so much time together as well. It was heavenly. Showering together, getting frisky on the kitchen counter, and even getting a bit adventurous in bed. Just a glimpse of how life would be when we'd be living together and I loved it so much. Not to mention, looking cute as heck while wearing my tees.",
+        imageUrl: "65.jpg",
+        backTitle: "7 Hours SPM",
+        backMessage: "Action Gallore"
+      },
+      {
+        id: 66,
+        topic: "Our Magical Dates",
+        compliment: "27th March, 2021",
+        desc: "Another great day where you came over and we had lots of fun together. Spent some quality time just kissing and bathing each other in the shower. I loved it so much. We were also going to Truffles today to meet my parents for sister's birthday and the shower took a bit long, and you were so pissed off at me cause you hair was still wet and you said you didn't like that. We took a bit longer than expected in the shower and that's when you got mad at me. Luckily Ibra was there to save the day with packing the gifts you got for sis otherwise it would have been game over for me. And that was also the day I could not finish the burger.",
+        imageUrl: "66.jpg",
+        backTitle: "Met Parents",
+        backMessage: "Wet Hair Fear"
+      },
+      {
+        id: 67,
+        topic: "Our Magical Dates",
+        compliment: "14th August, 2021",
+        desc: "Back to where it all began. We decided it would be a nice idea to go back to Play Factory and have a nice day to ourselves. I always enjoy doing some sort of activities on our dates and this was the best way to go about it. We had a great time at the trampoline area, with cricket where I threw the ball at your back, and chipped the soccer ball to your face. Oh what a day xD. Then we ended up grabbing a bite to eat and it was an anniversary well spent.",
+        imageUrl: "67.jpg",
+        backTitle: "3 Year Anniversary",
+        backMessage: "Play Factory"
+      },
+      {
+        id: 68,
+        topic: "Our Magical Dates",
+        compliment: "2nd October, 2021",
+        desc: "Out of the blue date where we decided to go to Indiranagar. You were going to meet Sandra and we sort of made it into a date as well, cause I hadn't met her in quite some time. We spent the day in Indiranagar, Paris Panini then went to a coffee place. It was a really nice catch up sesh where I found out that Sandra loves to yap yap yap about herself and we were just happily listening to it (we did get tired too). But good food date nonetheless.",
+        imageUrl: "68.jpg",
+        backTitle: "Impromptu Date",
+        backMessage: "Paris Panini"
+      },
+      {
+        id: 69,
+        topic: "Our Magical Dates",
+        compliment: "12th - 13th November, 2021",
+        desc: "We finally found a place where we could meet up and unleash our restricted hormones. Our very first time trying out an AirBnB and we happened to really like this place. We initially went to the wrong location but eventually got to the right one and that became our humble abode for unholy things. We spent the entire day together in bed and got to a lot of naughty things as well. And the next day, we found a really good place for breakfast in Sector 7 Cafe. Here's to the first, of many, visits to JK.",
+        imageUrl: "69.jpg",
+        backTitle: "JK Comforts",
+        backMessage: "Unrestricted Action"
+      },
+      {
+        id: 70,
+        topic: "Our Magical Dates",
+        compliment: "16th November, 2021",
+        desc: "You were looking to get someone to help you with your MCC Lab Practicals. I think Nihala was supposed to come but in the end she couldn't? So who else to save the day. Tan the Man xD. Always looking out for my baby girl and making sure she gets everything she wants :*. I came to MCC and we spent the day together later. I remember meeting Prerna and some of your other friends as well. I think this was the day we went to the wrong Domino's as well (where I ordered the wrong one in the app). Oh well, it was a fun ride to have!",
+        imageUrl: "70.jpg",
+        backTitle: "MCC Test Subject",
+        backMessage: "Your Personal Puppet"
+      },
+      {
+        id: 71,
+        topic: "Our Magical Dates",
+        compliment: "29th December, 2021",
+        desc: "It was you, me and Aams. Enjoying a meal together in Truffles and having a blast at TZ. We were fooling around and having a laugh at TZ and I loved how you got along with my best friend. It really felt great that we could just enjoy and not feel awkward. Then we went to Timezone and we won a Unicorn Plushie! A soft toy just for you and it was amazing. You keep it with you in your bed all the time. And I love that.",
+        imageUrl: "71.jpg",
+        backTitle: "Truffles and TZ",
+        backMessage: "Unicorn from Timezone"
+      },
+      //72 is between  48 and 49
+      {
+        id: 73,
+        topic: "Our Magical Dates",
+        compliment: "10th Febuary, 2022",
+        desc: "It was me, you and your sis. This was a restaurant I really wanted to go to with you. And we shared some really good food, belted a lot and I was stuffed by the end. Your sis had come from Australia and I really wanted to end up paying, but she did. Oh well. Then we went to Art of Delight where I took up the bill so it was fine xD.",
+        imageUrl: "73.jpg",
+        backTitle: "China Pearl",
+        backMessage: "Finally We Get To Eat At China Pearl"
+      },
+      {
+        id: 74,
+        topic: "Our Magical Dates",
+        compliment: "26th Febuary, 2022",
+        desc: "We planned to go to HSR and try shopping for your birthday. A place called Unlimited that usually gave you vouchers for birthday. There was also some other offer that was going on. And I remember you asked the staff member if there was any birthday discount and she said no, only the discount that was going on right now. We got scammed nicely that day and didn't end up getting anything nice.",
+        imageUrl: "74.jpg",
+        backTitle: "Unlimited Scam",
+        backMessage: "Shopping for Clothes"
+      },
+      {
+        id: 75,
+        topic: "Our Magical Dates",
+        compliment: "3rd March, 2022",
+        desc: "We planned a nice birthday lunch to BBQ nation where we got some nice offers on one of the food apps. We initially thought it was Koramangala one, went there, and the food was ready for us. But turns out we were at the wrong place for the coupon. The staff were really nice and helpful, and understanding, and they even let us go without any issues and we went to the HSR side one. Had a great time, belting food and eating like Gundus. It was a nice experience for both of us, considering we usually don't do these kind of dates.",
+        imageUrl: "75.jpg",
+        backTitle: "BBQ Nation",
+        backMessage: "Birthday Buffet!"
+      },
+      {
+        id: 76,
+        topic: "Our Magical Dates",
+        compliment: "15th-16th March, 2022",
+        desc: "We had gotten quite comfortable with JK. Liking it the first time and the privacy that it got us. So we decided to head back there and try it out again. Such a great time, we always get to have such quality time, being together, unfiltered and completely exposed. We have nothing to worry about, no tension and just living in the moment. I wish that moment would never pass and you would always be with me. One day, it will come true. Until then, I'm going to work hard for us cutie.",
+        imageUrl: "76.jpg",
+        backTitle: "Nirvana + Sector 7",
+        backMessage: "Round 2 JK"
       }
   ];
 
