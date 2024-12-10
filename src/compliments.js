@@ -683,6 +683,78 @@ const compliments = [
         imageUrl: "76.jpg",
         backTitle: "Nirvana + Sector 7",
         backMessage: "Round 2 JK"
+      },
+      {
+        id: 77,
+        topic: "Our Magical Dates",
+        compliment: "13th April, 2022",
+        desc: "You found a nice place in HSR where we could go and have a nice meal. Italian, nice vibes and close to where we usually meet. Perfect place for us. Everything was going great. Drinks were nice, appetizers as well, and the pizza too. Only that you like burnt pizza that are hard af whereas I like soft pizzas (like Dominos). To this day, we still debate whether or not the pizza was proper or burnt (it was burnt).",
+        imageUrl: "77.jpg",
+        backTitle: "Napoli Italian Bistro + CH",
+        backMessage: "Burnt Pizzas"
+      },
+      {
+        id: 78,
+        topic: "Our Magical Dates",
+        compliment: "31st May + 1st June, 2022",
+        desc: "Another amazing day spent together. Eating Domino's, spending loads of time together and just being ourselves. I remember I would always look forward to these days",
+        imageUrl: "78.jpg",
+        backTitle: "Buddha's Abode",
+        backMessage: "JK 3.0"
+      },
+      {
+        id: 79,
+        topic: "Our Magical Dates",
+        compliment: "21st June, 2022",
+        desc: "Unlimited Pizza Day at the top of Onesta. We feasted and belted so nicely and so much. I'm starting to think Pizza is our like go-to date food, cause we love it so much. But when we go out with others, it's not our #1 choice. Only when it's with us, do we order pizza and eat together. That's like our very own love food. Then we also ended up going to Agra Lake where we had a 1km walk around the entire lake. Where you clicked really good pics of me and I couldn't so I asked you to go back 3-4 times and let me take a good enough picture of you. And we even stole kisses in a future date. This became a nice go-to lowkey hangout spot for us too, just after work.",
+        imageUrl: "79.jpg",
+        backTitle: "Onesta + Agra Lake",
+        backMessage: "1km Walk"
+      },
+      {
+        id: 80,
+        topic: "Our Magical Dates",
+        compliment: "16th September, 2022",
+        desc: "What a wild day. I was really getting into it with you, and I tried to be very dominating and take charge. One thing led to another and you ended up breaking your toe. Oh well. I really freaked out in that moment thinking you twisted your bone but luckily it wasn't THAT bad. We still ended up doing a lot of things (cause you're a legend), and one we had a great time, yet again. Ended up pampering you as well, which you seemed to enjoy.",
+        imageUrl: "80.jpg",
+        backTitle: "Broken Toe JK",
+        backMessage: "JK 4.0"
+      },
+      {
+        id: 81,
+        topic: "Our Magical Dates",
+        compliment: "19th October, 2022",
+        desc: "First time you saw me in Ethnic and you really loved it. Did I wear it for work or some other reason? I'm not really sure but you loved it. We spent the day at Glen's and belted some nice pizza and milkshake together. Our go-to meal. We ended up chit-chatting (our favorite pass time) and you took some really nice photos of me.",
+        imageUrl: "81.jpg",
+        backTitle: "Glen's",
+        backMessage: "Ethnic Wear"
+      },
+      {
+        id: 82,
+        topic: "Our Magical Dates",
+        compliment: "29th October, 2022",
+        desc: "I think this was a day where you beat me in bowling? I don't remember exactly, but I think this was when your streak of beating me began. We had such a fun time with Niv, you were nicely sitting on my lap (initially shy but later got ok), and then we went to Cirkus for some nice food where your choice of food is always the best. Ended the day with some nice dessert and had a nice time hanging out and getting to know more about your closest friends.",
+        imageUrl: "82.jpg",
+        backTitle: "Bowling + Cirkus + Glen's",
+        backMessage: "Day Out with Niv"
+      },
+      {
+        id: 83,
+        topic: "Our Magical Dates",
+        compliment: "10th November, 2022",
+        desc: "The time where we got carried away with dominos, raw, and just mindless banging. Gotta admit, it was really good, but the scare that we had after. Jeez, it was something we still remember to this day. We learnt a very valuable lesson that day and we never are going to do the same mistake again (always clean up before doing the nasty).",
+        imageUrl: "83.jpg",
+        backTitle: "JK UTI",
+        backMessage: "JK 5.0"
+      },
+      {
+        id: 84,
+        topic: "Our Magical Dates",
+        compliment: "3rd December, 2022",
+        desc: "It was really sad to see what was happening to Archana and her partner. Sort of preparing us for what problems we might face. But one thing I know, I'll fight as much as I can for us. Cause you're worth all of it. I don't want to give your parents a reason to say no to me. I'm going to try my best in Australia to succeed and give them a reason for them to say yes to me. You're worth all the effort and sacrifice baby. I love you so much. Hearing the story from Archana made me understand that and just how important it is, what we have.",
+        imageUrl: "84.jpg",
+        backTitle: "Taco Bell Koramangala",
+        backMessage: "TB with Archana"
       }
   ];
 
