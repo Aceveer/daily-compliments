@@ -15,13 +15,13 @@ const ComplimentDisplay = () => {
     try {
       setLoading(true);
 
-      const targetDate = new Date('2024-10-20');
-      const currentDate = new Date();
+      const targetDateIST = new Date(new Date('2024-10-20').toLocaleString('en-US', { timeZone: 'Asia/Kolkata' }));
+      const currentDateIST = new Date(new Date().toLocaleString('en-US', { timeZone: 'Asia/Kolkata' }));
 
-      const differenceInTime = currentDate - targetDate;
+      const differenceInTime = currentDateIST - targetDateIST;
       const differenceInDays = Math.floor(differenceInTime / (1000 * 3600 * 24));
 
-      const complimentIndex = differenceInDays+1;
+      const complimentIndex = differenceInDays + 1;
 
       await new Promise(resolve => setTimeout(resolve, 1000));
 

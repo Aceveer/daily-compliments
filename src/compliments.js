@@ -748,6 +748,15 @@ const compliments = [
         backMessage: "JK 5.0"
       },
       {
+        id: 85,
+        topic: "Our Magical Dates",
+        compliment: "26th November, 2022",
+        desc: "At this point, I just find it funny and I love teasing you with it (because I'm over it), but this was the day of your NIMHANS interview. I was so glad and happy that I could be there for you. Sitting throughout the entrance and the interview, only to have you reject me sitting behind the scooter the moment I entered. So happy and cheerful to see you, I didn't know where to park and I'm like, 'Hop On'. And you hesitated and said No. At the moment I did feel bad, but now I'm like meh. You did feel horrible later and we spoke about it after TB (on call) but it's all good now!",
+        imageUrl: "85.jpg",
+        backTitle: "NIMHANS Interview",
+        backMessage: "The Picture Could Have Been Us At NIMHANS"
+      },
+      {
         id: 84,
         topic: "Our Magical Dates",
         compliment: "3rd December, 2022",
@@ -755,6 +764,69 @@ const compliments = [
         imageUrl: "84.jpg",
         backTitle: "Taco Bell Koramangala",
         backMessage: "TB with Archana"
+      },
+      {
+        id: 86,
+        topic: "6 Months To Liftoff",
+        compliment: "Quick, Cute Dates After Work",
+        desc: "We had such nice dates. Lowkey, economical dates where we enjoyed each other's company and had so much fun together. Meeting after work, travelling all the way to meet you, all of it was so worth it. All to spend time with you. McD was always a go-to with their softies. TZ was unseparable. We'd always play our games like Basketball or Stack, Air Hockey. We eventually even got Gold Cards! Taco Bell was so good too. Made you fall in love with CDD. Agra Lake was a nice common meeting spot for us both and not to forget, Casa Fresco where we didn't have the best experience but at least I know that if there was anything I needed, you were always there to talk to the waiter.",
+        imageUrl: "86.jpg",
+        backTitle: "January 2023",
+        backMessage: "McD. TZ. TB. Agra Lake. Casa Fresco. DYU"
+      },
+      {
+        id: 87,
+        topic: "5 Months To Liftoff",
+        compliment: "Working Individuals",
+        desc: "Starting with your first ever salary, and us sharing a nice meal at Glen's for it. I felt so happy and proud of my cutie. Worked so hard, and I remember how low you felt throughout the job hunt phase. But you never gave up, waited for the right role and here you are. I've never been so proud of you cutie. Then going to taking the car out, where you were really attracted to me driving, and loved being the passenger princess treatment. Took photos as well cause you just loved the whole vibe as we chilled to music. Tried Sbarro which wasn't bad but Theobroma became a nice substitute for Corner House (even though Corner House is the best). Not to forget, the one time we went to JK and you had a cold/cough. We did everything and when I went back, I was struck with the same viral fever (Totally worth it though).",
+        imageUrl: "87.jpg",
+        backTitle: "Febuary 2023",
+        backMessage: "Glen's Salary Treat. First Car Date. Sbarro + Theobroma. JK Viral."
+      },
+      {
+        id: 88,
+        topic: "4 Months To Liftoff",
+        compliment: "Birthdays!",
+        desc: "24th Birthday, 24 Gifts. Bani, Niv and I started planning it a month earlier, made a Google Sheet for the gifts and everything. Took a video call or phone recording in the car outside Roxie's and it was just the best thing ever seeing your reaction. Started by picking you up, driving you to MCC for some stuff, and then we headed to Roxie's for some good food, where I stopped on the way to get you some flowers. We enjoyed the drive together and you loved my fit as well. You were looking so beautiful with the black dress too! Killing it. And then we enjoyed some good food inside, Nihala also came in later. Then we drove back to Theobroma with Nihala, had some nice dessert and then I dropped you off. Sadly you had to carry all 24 gifts back home but I'm so glad you loved every bit of it. We found a new place with Popeye's and had a bit of a post birthday celebration, enjoyed another date at Agra Lake after work where I got hot chips (boat ones) and we were just chilling and talking. And the highlight of the month, was when we had our sleepover and dinner together. It was so nice, I painted your nails and we played Bid all night long (where you got trashed). Ordered Breakfast in the next day, slept in the corner of the bed, froze my ass off but all of it was worth it to spend some nice quality time with my #1. I loved spending every second of every one of those days with you. And Fisherman's Wharf on my birthday, which was nice xD.",
+        imageUrl: "88.jpg",
+        backTitle: "March 2023",
+        backMessage: "Roxie. Popeyes. Gazebo + Theo. Sleepover Dinner. Fisherman's Wharf."
+      },
+      {
+        id: 89,
+        topic: "3 Months To Liftoff",
+        compliment: "Book Dates And Budget Meals",
+        desc: "This was the time when we started going to Sapna and gifting you books. I remember you wanted to finish a goal of 25 books for the year? I remember I made you an entire google sheet keeping track of what books you wanted to read and what you've read. We also tried Popeyes after which you really liked their fries. And you treated me there so many times too! Had another TZ date. And 2 Dominos Dates where one turned out to be the scam one, and the very next day was the proper one. Points if you guess the context of the Dominos Date!",
+        imageUrl: "89.jpg",
+        backTitle: "April 2023",
+        backMessage: "TB. Sapna. Popeyes. Dominos. TZ."
+      },
+      {
+        id: 90,
+        topic: "2 Months To Liftoff",
+        compliment: "Rider JK And Confrontations",
+        desc: "We went to JK this time, and I had the most magnificent view ever. You on top, riding it like a pro. To this day, I still cannot forget the sight of how hot it was. We had a lot of good food with Corner House (where we always had such deep and personal conversations), a risky McD date, Taco Bell, and Subway. On a more positive and light hearted note, we made the Instagram Reel of you choosing books within 1 minute, or was it 2? I don't remember but you scammed your way to an extra book but felt too guilty to take it. But we took it in the end cause it was on offer!",
+        imageUrl: "90.jpg",
+        backTitle: "May 2023",
+        backMessage: "TB. Sapna. Popeyes. Dominos. TZ."
+      },
+      {
+        id: 91,
+        topic: "1 Month To Liftoff",
+        compliment: "Sleepover + Family",
+        desc: "What a loaded month. Started with Hustle where we fell in love with the Garlic Bread. Art of Delight with some really great cheesecake and ice cream. A TB date where we spent our last 12th together and another TB date where we were planning a party for 2033 apparently. I don't remember what it was right now. But one of the standouts was the Sleepover that we had together. From lots of love, action, emotions and tears, and just quality time together. It was really nice. We stayed up late night, played Bid, shared food together and wiped your tears when you were feeeling down. I still remember the morning you left, I cried because of how much I'd miss all this with you. I loved spending so much time with you, just together where you'd hog the blanket and switch the AC on, leaving me to the side of the bed. We went to Cafe Hideout after Bethany's reunion and Centi was also there. DYU with the yummy comfort food, Plan B where you met some of the bois and we all had a great time. And the standout for me was Bakrid when you came over and met my family and you killed it in Carrom. You were looking so good and I remember picking you up, dropping you back and we had just the most amazing day with my entire family. I loved how well you got along, had the siwaii with dry fruits (no complaints) and just how my family loved you so much. Everything was just so good. I am so happy to know that it's a green light from my family. This is what I was really hoping for and I got it!",
+        imageUrl: "91.jpg",
+        backTitle: "June 2023",
+        backMessage: "Hustle. AoD. TB. JK. Hideout Cafe. DYU. Plan B. Bakrid."
+      },
+      {
+        id: 92,
+        topic: "Liftoff",
+        compliment: "Goodbye, For Now",
+        desc: "2 weeks left to go and we made the most of our time left. We made a list of all the lowkey dates and places we wanted to go. Starting with Glens, our pizza. TZ where we had the most amazing time, always. Corner House with Cake Fudge and Mini DBC. DYU with Cheesecake vs Key Lime Pie. Sapna for a last book buy. Hustle, when it rained, for our garlic bread, and the last time we went out for a drive. I remember we got handsy in the car as well, but it was really emotional towards the end. Took pics and it was raining, helped us stay together for longer as well. Gosh I still remember how sad you were. I can't wait for it to be over so we can finally be together.",
+        imageUrl: "92.jpg",
+        backTitle: "July 2023",
+        backMessage: "Glens. TZ. CH. DYU. Sapna. Hustle. Car Drive"
       }
   ];
 
