@@ -827,6 +827,51 @@ const compliments = [
         imageUrl: "92.jpg",
         backTitle: "July 2023",
         backMessage: "Glens. TZ. CH. DYU. Sapna. Hustle. Car Drive"
+      },
+      {
+        id: 93,
+        topic: "Back To India",
+        compliment: "Meet 1",
+        desc: "Our first date after almost a year. I was so excited and determined to meet you, especially after just landing the previous day. But the city weather and roads (louda city) had other plans. I remember I was leaving and my parents warned me about the weather. Luckily I did take a jacket, but it got so heavy so fast. Gosh, it was so bad. I almost felt like going back but I wanted to meet you. Rode through the rain, all the way to Domino's where we shared a nice good meal at HSR. Our go to pizzas with you stealing more than 50% of the drink (as always). Meeting you and spending time with you after so long was just so nice, refreshing and just so fricking ecstatic. I loved every bit of it.",
+        imageUrl: "93.jpg",
+        backTitle: "1st June, 2024",
+        backMessage: "Domino's"
+      },
+      {
+        id: 94,
+        topic: "Back To India",
+        compliment: "Meet 2",
+        desc: "This was the date where we both planned to study. A new place we checked out which vibed with the whole work/study + eat cafe. We really loved the food, drinks and dessert as well. I was working on my project whereas you were studying for the M Phil Entrance. I built a small web-page also for you during the project where you loved it and took a photo to show off to your friends. We ended up getting the membership for you which also was at a very reasonable price. Now I don't know if you still have that card after losing your purse, but oh well.",
+        imageUrl: "94.jpg",
+        backTitle: "6th June, 2024",
+        backMessage: "North Star Cafe"
+      },
+      {
+        id: 95,
+        topic: "Back To India",
+        compliment: "Meet 3",
+        desc: "Another raining day and a very scary day too. The day that you had been preparing for, for almost a year. You were writing the exam and I was outside. You came out and you didn't seem to unhappy, and you didn't seem too anxious. You got a really good score, a great score tbh. And we were going through so many discussions regarding all of that. I think we even went to get TB after that? I'm not sure if it was after this and then realized that TB had changed and it was horrible (when we went to Forum). But I was so glad that you got a great fighting score that would really increase your chances of getting into M Phil.",
+        imageUrl: "95.jpg",
+        backTitle: "9th June, 2024",
+        backMessage: "M. Phil. Exam"
+      },
+      {
+        id: 96,
+        topic: "Back To India",
+        compliment: "Meet 4",
+        desc: "Aamey had also come to India, with Celia. And I think this was the first time we all were meeting them. And our first ever dinner (as adults) meeting each other and our partners. This is honestly something I had always hoped for and wished for, in the future. Like my closest friends and I, going out for dinner or some sort of activity, with their respective partners. We had some really good food, we all were having our banter and fooling around, and it was all so much fun. At one point it did feel like it was getting out of hand, and you even checked up on me, and I said yeah it was all good. But you know me so well and that's the biggest flex. Anyway, it was a great dinner, we all enjoyed and loved meeting everyone.",
+        imageUrl: "96.jpg",
+        backTitle: "10th June, 2024",
+        backMessage: "Jugni"
+      },
+      {
+        id: 97,
+        topic: "Back To India",
+        compliment: "Meet 5",
+        desc: "",
+        imageUrl: "97.jpg",
+        backTitle: "11th June, 2024",
+        backMessage: "Subbu's House"
       }
   ];
 

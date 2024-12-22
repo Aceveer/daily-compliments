@@ -15,7 +15,7 @@ const ComplimentDisplay = () => {
     try {
       setLoading(true);
 
-      const targetDateIST = new Date(new Date('2024-10-20').toLocaleString('en-US', { timeZone: 'Asia/Kolkata' }));
+      const targetDateIST = new Date(new Date('2024-10-21').toLocaleString('en-US', { timeZone: 'Asia/Kolkata' }));
       const currentDateIST = new Date(new Date().toLocaleString('en-US', { timeZone: 'Asia/Kolkata' }));
 
       const differenceInTime = currentDateIST - targetDateIST;
