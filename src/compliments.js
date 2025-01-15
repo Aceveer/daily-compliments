@@ -868,10 +868,146 @@ const compliments = [
         id: 97,
         topic: "Back To India",
         compliment: "Meet 5",
-        desc: "",
+        desc: "A day I had always hoped and dreamed for. My partner with my best friends and their partners, all chilling and hanging out. You had work and I was waiting outside at a turn for you to meet me and we went to Subbu's house. You met up with everyone again and we were just chilling. I remember you were hungry and we ordered some stuff for you. Then we played the Nintendo Switch, tennis and you got wrecked xD. Munda and Aams lost to their partners and you were like, why couldn't you let me win xD. I loved how we all were getting along so well and just chilling. I think this is one of the best memories I'll have with my closest circle.",
         imageUrl: "97.jpg",
         backTitle: "11th June, 2024",
         backMessage: "Subbu's House"
+      },
+      {
+        id: 98,
+        topic: "Back To India",
+        compliment: "Meet 6",
+        desc: "The day we were all preparing for. The one that you had put so much strength, time, effort and tears into. I was a bit late to the venue but you came out strong. You managed to get a really challenging score and it was up there. We were working out so many permutations just considering how the domicile quota would have worked out. We went for a nice meal after as well, but all your hard work paid off cutu. And I'm so proud of you. ",
+        imageUrl: "98.jpg",
+        backTitle: "15th June, 2024",
+        backMessage: "M Phil Exam"
+      },
+      {
+        id: 99,
+        topic: "Back To India",
+        compliment: "Meet 7",
+        desc: "This was another great day to be honest. Titmey bois had planned a Plan B dinner and we were all here. We had a great time, enjoying wings and ice cream later. We took pics and you met and spoke to a lot of the gaming bois. It was just so nice to see everyone getting along so well with people I hang with so often. And Kanishk, Iblis and everyone also offered to like hang out with you even when I'm not there. Which I think is so good and nice.",
+        imageUrl: "99.jpg",
+        backTitle: "18th June, 2024",
+        backMessage: "Plan B Dinner"
+      },
+      {
+        id: 100,
+        topic: "Back To India",
+        compliment: "Meet 8",
+        desc: "We got your results and we wanted to celebrate. I'm not sure if this was the day where I belted your pasta but we went to Hustle to celebrate your resignation from CAM to get into M Phil. What a year it had been. Hardships and struggles, juggling marriages, me, work and studies, and clearing M Phil with a great score. I'm so proud of you cutu. And we enjoyed our garlic bread as usual. I think it was our next date where I belted your pasta but oh well. You know better cause you were the one who was left scarred xD.",
+        imageUrl: "100.jpg",
+        backTitle: "22nd June, 2024",
+        backMessage: "Resignation Hustle"
+      },
+      {
+        id: 101,
+        topic: "Back To India",
+        compliment: "Meet 9",
+        desc: "Using the most of our time together, we went to our favorite place. Enjoyed a nice New York style pizza at Sbarro, you liked something about Leon Grill. I think it was the burger? So we ordered one and then we went to TimeZone! It had changed a bit so we were trying our games. This was when we got scammed as well, and one of the staff members saw our card and they were like Gold members! Give them the free games. And we got happy. We also had to fight a lot for that but oh well xD. I will always back my baby up :*.",
+        imageUrl: "101.jpg",
+        backTitle: "24th June, 2024",
+        backMessage: "Sbarro + Leon Grill + TZ"
+      },
+      {
+        id: 102,
+        topic: "Back To India",
+        compliment: "Meet 10",
+        desc: "We saw this place on instagram and wanted to try it out. It had good food and board games as well. It was pretty lowkey when we went, not many people and we were just relaxing and enjoying our time together, Talking to each other about our days, and playing connections and mini. This has legit become our new tradition. And then we ordered some good food which we really enjoyed. We played some board games as well, we asked for Azul but he didn't know what we were talking about. And brought it out much later. But oh well, it was nice, just having the whole place to us and no one else. We cozied up nicely and chatted so much.",
+        imageUrl: "102.jpg",
+        backTitle: "26th June, 2024",
+        backMessage: "Board In The City"
+      },
+      {
+        id: 103,
+        topic: "Back To India",
+        compliment: "Meet 11",
+        desc: "We really liked this place and we decided we could give it another shot. This time playing Azul. So that's what we did. We got Azul and we were nicely sitting facing each other. After you beat me (by scamming), we sat next to each other. And the food was taking some time to come, so we were nicely having our own low-key make out sesh in the back. Hehe, I loveeeeeee kissing your lips so sue me xD. We tried SmooChoo after this for dessert, and it was actually so good. We loved it so much we wanted to make this as our go-to dessert place as well, a time you ditched me for it also. But it's okay, I forgive my #1.",
+        imageUrl: "103.jpg",
+        backTitle: "26th June, 2024",
+        backMessage: "Board In The City 2"
+      },
+      {
+        id: 104,
+        topic: "Back To India",
+        compliment: "Meet 12",
+        desc: "Starting the day with bowling at The Grid, where you actually wrecked me xD. It was a nice fun date where we played and chilled together for so long. You were taunting me the whole day also, for winning (as usual). We got into the lift as well, and there were no cameras so we made the most of it. I love kissing you so so so so much. We decided pizza bakery first but then truffles was also there, so we decided to go there and it was so worth it. Truffles is honestly value for money, talking about our days. You ended up mocking me for taking too many tissues too and destroying the straw. It started raining by the time we were leaving, but we walked nicely in the rain and it was nice and romantic and that was a really nice end to a great date.",
+        imageUrl: "104.jpg",
+        backTitle: "3rd July, 2024",
+        backMessage: "Truffles"
+      },
+      {
+        id: 105,
+        topic: "Back To India",
+        compliment: "Meet 13",
+        desc: "We had a lowkey date planned right after our date yesterday. We managed to squeeze in time together, going upto the Gazebo at Agra Lake. Spoke about our days, Guess The Song Challenge. Couldn't guess many non-TS songs, so we switched to that and I won the decider for 100 points! We were watching and commenting on people walking around, and you were laughing at them (you evil lady). But we were having such a nice time, drinking juice and munching chips. My leg fell asleep in the middle and then you asked me to go on my tip-toe, and again you were mocking me. I love walking alongside you, especially knowing you can't walk in a straight-line. We ended it with buying ice-cream and hugged awkwardly cause of cops but we managed to hug properly in the end and said our byes",
+        imageUrl: "105.jpg",
+        backTitle: "4th July, 2024",
+        backMessage: "Agra Lake"
+      },
+      {
+        id: 106,
+        topic: "Back To India",
+        compliment: "Meet 14",
+        desc: "I came to NIMHANS in shorts and you were mad at me cause then you couldn't sneak me in. We met a couple of your batchmates and you introduced me as your partner and you were so shy (which was so cute). Then I met Manasa in the canteen where even Ananya joined up. Ananya was nicely yapping, that's why you guys get along so well. We shared ice-cream and we headed to the cafe. I put maps and was telling you where to take turns, and you were saying that you know the directions and I said ok no need. And just a lot of banter going on there again. A little bit of 'Oops' moments also happened. We reached the cafe and found a nice spot to sit. We got introduced to a new game called Project L which we both fell in love with and unfortunately, I lost both games so that was a big BT for me. We enjoyed the food and the game, you enjoyed winning and then we headed home. You're a natural at board games and I love playing these kind of abstract thinking games with you. You stopped for puff on the way and dropped me off near Madiwala where I was going to friends for dinner.",
+        imageUrl: "106.jpg",
+        backTitle: "5th July, 2024",
+        backMessage: "Now Boarding Cafe"
+      },
+      {
+        id: 107,
+        topic: "Back To India",
+        compliment: "Meet 15",
+        desc: "Impromptu plans for the win. This series of dates had a lot of miscommunication with time but oh well, we got to be together and that's what matters the most. I waited for you near HSR at the usual place. You asked to go fast cause it was raining and I was a bit surprised cause you never do, but first time for everything. We made our way to the parking area and then quickly went inside. Sat outside and we were conflicted between Pizza and Pasta. So we finally decided Red Sauce Pasta and some really good Garlic Bread. We had drinks and offered first sip (as usual). We enjoyed the Pasta so much, evenly split between us 50-50. But you got mad at me cause I said I didn't want it and still ate almost as much as you xD. We played Connections and Mini, annoyed you and sat next to each other taking photos. Had a nice quality time date and called me while I was still on my way back. This date was one you'd never forget because of the PTSD with pasta xD.",
+        imageUrl: "107.jpg",
+        backTitle: "8th July, 2024",
+        backMessage: "Hustle"
+      },
+      {
+        id: 108,
+        topic: "Back To India",
+        compliment: "Meet 16",
+        desc: "We met at Miniso and made our way to TZ. We were quite famous because of our antics last time so we just entered and did our thing. You were on call with your sis where you ditched me. We went back to TZ after your call and recharged for 1500. Did bowling where you won yet again, and I guess this trip was just your trip xD. Winning in everything. You also got more than me in BB, somehow xD. We played a whole bunch of other arcade games there and went to Food Court where we saw what and all was there. We tried to stay strong because of the war but once you saw Muslims also order from there, you were like nah it's fine. You loved what you got and I got a pizza, and we were chilling together. We ended with hugs, paid for your parking and flirted a bit while heading back home on the scooter.",
+        imageUrl: "108.jpg",
+        backTitle: "10th July, 2024",
+        backMessage: "TZ"
+      },
+      {
+        id: 109,
+        topic: "Back To India",
+        compliment: "Meet 17",
+        desc: "You were going to be a bit late so I thought I'd stop by for the Choco Strawberry and get that for you. But you ditched me again for Ananya? Something like that. I ordered a drink but it had dry fruits which I was like shit as soon as I saw her packing. You said you'd reach in 10 minutes when I got to Forum before you even left, but I know it was impossible. But you still managed to get there within 15-20 minutes? We went to the side and we spoke for a bit while you were belting the drink and I was eating the dry fruit part. The face while you ate the kishmish was priceless xD. We went to TZ again and bowling because it was so cheap. We raced each other, basketball again. We also had a nice dinner date at the food court where we had some chaat and then Sbarro pizza with drinks. Chilled and talked, a nice lowkey date night. We belted fast fast so we could get in time for bowling. Lost by 1 point in the end. We went back to food court for dessert and I felt like I needed to use the toilet so bad. We paid for our parking and it didn't feel like we were on a clock today. It was just so relaxed and fun. Flirted again with you on the ride back, my hottie.",
+        imageUrl: "109.jpg",
+        backTitle: "11th July, 2024",
+        backMessage: "TZ + Date Night"
+      },
+      {
+        id: 110,
+        topic: "Back To India",
+        compliment: "Meet 18",
+        desc: "We met at BDA where you were a bit lost trying to find Riz's car. You were looking so good and so hot! Dressed to impress. Whiel walking towards Rizzy's car I was scaring you by telling me what you thought about Gaurang and all. Then you threatened me by saying you won't ever come again. But I know that's not true ;). Then in the car, we played Guess The Song challenge where we killed it. We reached the Baddy place and were shocked to see the state of it. It was dirty and messy and in some corner but it's alright. No one was even there. We turned on the lights and we started playing. Gaurang seemed to be holding back against you. Kanishk and Shri didn't give a shit xD. You also played really well. Held your own. After we were done playing, you wanted to change but didn't let me come inside. We managed to steal a few kisses here and there. While going out, we saw Shri's bike and you were surprised to see the backseat so small. We got an auto and I was grabbing your booty throughout the trip. Cozying upto each other. We reached and got in, and we ordered some really good food. We shared drinks and everyone loved yours. We played undercover and you really enjoyed it. Kanishk invited you over to his place and we all went there after finishing our meal. We reached and quickly washed our feet and were in Kanishk's room. Stole a lot more kisses and your family had called I think? Then we started playing stick fight where you eventually got bored, but they asked you if you wanted to try and you weren't interested. So then Kanishk picked up on that and we played Undercover again. It was so much fun and I even simply said, 'You're Mr. White no?' And you started laughing and I didn't even see your thing but you were such a NOOB. I think you did manage to win once though so that was impressive. You parked at BDA so I offered to drop you there with Riz. He was so nice that he came and also had tea with us. Riz is such a Character that we kept laughing to whatever he said.",
+        imageUrl: "110.jpg",
+        backTitle: "13th July, 2024",
+        backMessage: "Baddy + Banoffee + Kanishks"
+      },
+      {
+        id: 111,
+        topic: "Back To India",
+        compliment: "Meet 19",
+        desc: `The date where I realized you were such a HOE. I got Theo cakes as a surprise for you. To celebrate your birthday which didn't go so well, so I figured we could do it again with Bani and Niv. You saw it right outside Burger King as I waited and you figured it out. We then went to JK nad you wanted to rest. We switched on the fans and AC, got comfy and lay down as we kissed for so long. Your sis called later and I wanted to get a little hoe-y but you weren't letting me. Then we spoke to her together and later call was done. You wanted to nap for a bit so we did, and we kissed and cuddled some more. We got ready for dinner soon and found Shift, but didn't like the vibe so we went to Oyster where we had a nice Value for Money buffet dinner. It was loud in the beginning, but we managed to pull through. It was a nice date night. We couldn't keep up with the pace at which the food was coming and then sorta talking about how I was a baby.You spoke about your sis being your idol and finances in Australia. Then I ordered Naan with no curry and the waitress was really surprised. We had some nice dessert then went back home while it was drizzling. It was 11-ish and I was worried I wouldn't be able to pull off the birthday call but everyone managed to. I got you the poem as well to read and you really enjoyed it. I wanted to give you something handmade from me before I left. After I finished pooping and you reading the poem, we called your friends and we had the cake. We had a nice call that had a lot of scandalous details but they bet that we'd have sex early in the morning. We couldn't keep it in our pants and we did it that very night. Starting with just the tip and you loved it so much you didn't want any proection. It felt so good. We played Bid too and ended on 2-2. You had such disturbed sleep casue of my snores sadly. Next morning I freshened up and tried doing the lamp but no time. You said you'd be able to but I didn't think you would have the time to xD. And here we are today. We cuddled and kissed then we fucked again with no protection, again. You were a loudspeaker but that never holds you back. You're such a hoe sometimes and I LOVE IT when you pull me closer. We ordered Breakfast and I put the wrong address and the guy ended up going elsewhere and all. We had a nice shower though, where we were kissing and you burnt my skin. Once the food arrived , we got 3 bowls and ate it nicely. I loved feeding you while we watched and cake
+         for dessert. We played Bid and you won the first game and I wanted to play first till 5. You reached 4 and then I made the comeback of the century to win 5-4. I was in your head. I was putting 1 more than you and it was the best. I started jumping like a monkey when I won. I also found a tickle spot for you in the process. Then we napped again, got up and made love again. This was the time where you BEGGED me to remove it. I helped you finish first and that's what I love the most about this. Then after I finished, we got ready for dinner at Iris cafe where we loved it so much. We missed such a nice cute cafe with good food for so long. We were really full and went back home, you had a headache so we didn't do much. You had to leave for home and we just kissed each other and hugged each other as I dropped you downstairs.`,
+        imageUrl: "111.jpg",
+        backTitle: "16th-17th July, 2024",
+        backMessage: "JK"
+      },
+      {
+        id: 112,
+        topic: "Back To India",
+        compliment: "Meet 20",
+        desc: "The last date of 2024. We met out side AoD where we did our side hug and entered. We met your friends and spoke to them. It was nice to see them and talk to them, getting to know more about them and all. They were nice and soon left. We played our usual Connections, Mini and stuff and enjoyed our ice cream together. We were fooling around and you were tickling me. We took nice photos and just spoke about anything and everything under the sky. We finished and got to the scooter where you teared up a bit, cause of how you would miss our physical dates and just me being around. Had the most amazing 2 months with you and I appreciate all the time and effort you had put in to meeting me all these days. It wasn't easy, it was draining, mentally, physically and even financially so I really really thank you so much for making it all happen. I love you so much and I can't wait to see what the future holds.",
+        imageUrl: "112.jpg",
+        backTitle: "20th July, 2024",
+        backMessage: "Art of Delight"
       }
   ];
 
