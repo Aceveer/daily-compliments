@@ -1008,7 +1008,89 @@ const compliments = [
         imageUrl: "112.jpg",
         backTitle: "20th July, 2024",
         backMessage: "Art of Delight"
-      }
+      },
+      {
+        id: 113,
+        topic: "Early Vows",
+        compliment: "Vow 1",
+        desc: "I vow to love you forever and ever. Till my very last breath, I will love you unconditionally. Be it at our best, or even our worst. Nothing would ever change my love for you, as it grows every single day we know each other and talk to each other. You complete me.",
+        imageUrl: "113.jpg",
+        backTitle: "Munchkat",
+        backMessage: "The Love Of My Life"
+      },
+      {
+        id: 114,
+        topic: "Early Vows",
+        compliment: "Vow 2",
+        desc: "I vow to always protect you and keep you safe. I will make sure that I take care of you always, and that you never have to do anything you wouldn't want to. I would never put you in harm's way and always be the one sheltering you from the storm.",
+        imageUrl: "114.jpg",
+        backTitle: "Pookie",
+        backMessage: "Your Rock"
+      },
+      {
+        id: 115,
+        topic: "Early Vows",
+        compliment: "Vow 3",
+        desc: "I vow to always try to win you over like as if I had a crush on you in high school. I will try to do cliche romantic things, put in effort to show you that you mean a lot to me and I love you so much, and never ever stop trying.",
+        imageUrl: "115.jpg",
+        backTitle: "Secret Admirer",
+        backMessage: "High School Sweethearts"
+      },
+      {
+        id: 116,
+        topic: "Early Vows",
+        compliment: "Vow 4",
+        desc: "I vow to sing songs and make originals for you randomly. Write random poems to even make it upto you or ask you to be my valentine. And eventually, record some of the songs for you so you can have your very own album dedicated to you.",
+        imageUrl: "116.jpg",
+        backTitle: "Personal Artist",
+        backMessage: "Prx's Recordings"
+      },
+      {
+        id: 117,
+        topic: "Early Vows",
+        compliment: "Vow 5",
+        desc: "I vow to share all my food with you when we go out. Feed you as well while you're staring at good looking guys on the TV as well, and eventually elbow my face. I promise I will always give you the first bite of whatever we order and free exchange of anything you don't like. Order 2 of anything you seem to like from the menu.",
+        imageUrl: "117.jpg",
+        backTitle: "Companion",
+        backMessage: "First Bites"
+      },
+      {
+        id: 118,
+        topic: "Early Vows",
+        compliment: "Vow 6",
+        desc: "I vow to drive you around to any place you wish to go. Sing along to our favorite tunes while you sit right next to me, ruffling with my hair while you watch me take a turn with one hand. No matter how far the place might be (Silbatti distance even).",
+        imageUrl: "118.jpg",
+        backTitle: "Personal Chauffeur",
+        backMessage: "Passenger Princess"
+      },
+      {
+        id: 119,
+        topic: "Early Vows",
+        compliment: "Vow 7",
+        desc: "I vow to be patient and understanding of all your troubles. I can be the problem-solving boyfriend or just a gal who you want to vent your problems to and need someone to listen to.",
+        imageUrl: "119.jpg",
+        backTitle: "Dual Roles",
+        backMessage: "Yapping Princess"
+      },
+      {
+        id: 120,
+        topic: "Early Vows",
+        compliment: "Vow 8",
+        desc: "I vow to never ever start a movie or tv show we decide to watch together, or even talk about. We will start a show together, take as many days required to finish it and then make sure we watch it together. (No Superstore repeats).",
+        imageUrl: "120.jpg",
+        backTitle: "Movie Nights",
+        backMessage: "Netflix & Chill"
+      },
+      {
+        id: 121,
+        topic: "Early Vows",
+        compliment: "Vow 9",
+        desc: "I vow to cook and meal prep with you. Cooking/baking together and fooling around in the kitchen, just having fun. Avo/toast for breakfast with some really healthy smoothies for both of us.",
+        imageUrl: "121.jpg",
+        backTitle: "",
+        backMessage: ""
+      },
+
   ];
 
   module.exports = compliments;
