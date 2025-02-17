@@ -1087,8 +1087,80 @@ const compliments = [
         compliment: "Vow 9",
         desc: "I vow to cook and meal prep with you. Cooking/baking together and fooling around in the kitchen, just having fun. Avo/toast for breakfast with some really healthy smoothies for both of us.",
         imageUrl: "121.jpg",
-        backTitle: "",
-        backMessage: ""
+        backTitle: "Chef Ace",
+        backMessage: "Healthy Food 24x7"
+      },
+      {
+        id: 122,
+        topic: "Early Vows",
+        compliment: "Vow 10",
+        desc: "I vow to kiss you any chance I get. Before we sleep, after we wake up, or even before we head for work. It always leaves me feeling so happy and nice.",
+        imageUrl: "122.jpg",
+        backTitle: "Soft Kisses",
+        backMessage: "You Make Me Giddy"
+      },
+      {
+        id: 123,
+        topic: "Early Vows",
+        compliment: "Vow 11",
+        desc: "I vow to never bully or make fun of you, during your week. Or at least try to, and any time I do make fun of you, well, you can decide what the punishment for me is.",
+        imageUrl: "123.jpg",
+        backTitle: "Your Week",
+        backMessage: "Whatever You Say, Goes"
+      },      
+      {
+        id: 124,
+        topic: "Early Vows",
+        compliment: "Vow 12",
+        desc: "I vow to always help you around the house and keep things neat and tidy. Be it my 1/4th cupboard or your 3+3/4th cupboards. I promise to always help around the house and be as useful as I can to you (even in cooking).",
+        imageUrl: "124.jpg",
+        backTitle: "House Chores",
+        backMessage: "2's Better Than 1"
+      },
+      {
+        id: 125,
+        topic: "Early Vows",
+        compliment: "Vow 13",
+        desc: "I vow to let you decide all the design and aesthetics of anything we plan to get. You will be the person in charge and I will only be there to agree to whatever you say.",
+        imageUrl: "125.jpg",
+        backTitle: "My Mini Designer",
+        backMessage: "Aesthetic Queen"
+      },
+      {
+        id: 126,
+        topic: "Early Vows",
+        compliment: "Vow 14",
+        desc: "I vow to always explain to you how I'm going to stay awake late, or even not fall asleep within the next 5 minutes of closing my eyes, but falling asleep regardless.",
+        imageUrl: "126.jpg",
+        backTitle: "Sleep Monsta",
+        backMessage: "Somethings Will Never Change"
+      },
+      {
+        id: 127,
+        topic: "Early Vows",
+        compliment: "Vow 15",
+        desc: "I vow to only use half the space of the bed and allow you to control the fan/AC speed. And you are more than welcome to use your tactics to nudge me or move me so I stop snoring to help you fall asleep.",
+        imageUrl: "127.jpg",
+        backTitle: "Snoring",
+        backMessage: "Expert in Dealing with Snoring"
+      },
+      {
+        id: 128,
+        topic: "Early Vows",
+        compliment: "Vow 16",
+        desc: "I vow to listen to all the books you read, and hear you explain the tropes, character and then listen to how you can't wait to see what happens. Eventually you telling me that you skipped to the end to see what happened with the main characters.",
+        imageUrl: "128.jpg",
+        backTitle: "My Favorite Book Reader",
+        backMessage: "Trope Reading Noob"
+      },
+      {
+        id: 129,
+        topic: "Early Vows",
+        compliment: "Vow 17",
+        desc: "I vow to let you borrow my tees, boxers and hoodies/jackets. I'll buy the baggiest of clothes just so you can feel comfy and cozy in them.",
+        imageUrl: "129.jpg",
+        backTitle: "50/50",
+        backMessage: "My Clothes = Your Clothes"
       },
 
   ];
