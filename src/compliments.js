@@ -1107,7 +1107,7 @@ const compliments = [
         imageUrl: "123.jpg",
         backTitle: "Your Week",
         backMessage: "Whatever You Say, Goes"
-      },      
+      },
       {
         id: 124,
         topic: "Early Vows",
@@ -1161,6 +1161,24 @@ const compliments = [
         imageUrl: "129.jpg",
         backTitle: "50/50",
         backMessage: "My Clothes = Your Clothes"
+      },
+      {
+        id: 130,
+        topic: "Early Vows",
+        compliment: "Vow 18",
+        desc: "I vow to remind you how pretty you are everyday, because you are the most beautiful girl in the entire world. No matter what you're wearing, make-up or no make-up. You still look the most beautiful girl in the world.",
+        imageUrl: "130.jpg",
+        backTitle: "My Most Beautiful",
+        backMessage: "Fashionista"
+      },
+      {
+        id: 131,
+        topic: "Early Vows",
+        compliment: "Vow 19",
+        desc: "I vow to pamper you as much as I can. Either gifts like flowers or chocolates, or even taking care of you and giving in to every one of your sad faces.",
+        imageUrl: "131.jpg",
+        backTitle: "Expert Convincer",
+        backMessage: "I'm Whipped"
       },
 
   ];
