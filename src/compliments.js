@@ -1180,6 +1180,69 @@ const compliments = [
         backTitle: "Expert Convincer",
         backMessage: "I'm Whipped"
       },
+      {
+        id: 132,
+        topic: "Early Vows",
+        compliment: "Vow 20",
+        desc: "I vow to always worship your body. You're the most attractive and beautiful person in the world. Even watching you comb your hair after shower makes me want you so much more. I want to make sure no part goes un-worshipped ;).",
+        imageUrl: "132.jpg",
+        backTitle: "Seductive Queen",
+        backMessage: "Always Longing For You"
+      },
+      {
+        id: 133,
+        topic: "Early Vows",
+        compliment: "Vow 21",
+        desc: "I vow to not go too hard on you when we play physical sports. I vow to let you win and TRY to not be a baby when you actually defeat me, like in TT and Bowling. Seeing that smile will always make me feel like the biggest winner.",
+        imageUrl: "133.jpg",
+        backTitle: "Happy Girl Happy World",
+        backMessage: "Undefeated Champion"
+      },
+      {
+        id: 134,
+        topic: "Early Vows",
+        compliment: "Vow 22",
+        desc: "I vow to always be shirtless when we're together. I'll leave the fan at 5 or AC at max and will suffer through the cold. I vow to also let you use my body for you to extract all the heat from it.",
+        imageUrl: "134.jpg",
+        backTitle: "Your Personal Heater",
+        backMessage: "Body Heat"
+      },
+      {
+        id: 135,
+        topic: "Early Vows",
+        compliment: "Vow 23",
+        desc: "I vow to let you design our home, the aesthetics and the color and even all our big functions. You'll be the brain behind everything and I'll just be there to say 'Yes' with my thumbs up.",
+        imageUrl: "135.jpg",
+        backTitle: "Personal Architect",
+        backMessage: "Beautiful Designer"
+      },
+      {
+        id: 136,
+        topic: "Early Vows",
+        compliment: "Vow 24",
+        desc: "I vow to always stand by your side and support you no matter what. You will always come first and I will never let you experience what you've seen happen in your family. I promise you that.",
+        imageUrl: "136.jpg",
+        backTitle: "Your Protector",
+        backMessage: "My Angel"
+      },
+      {
+        id: 137,
+        topic: "Early Vows",
+        compliment: "Vow 25",
+        desc: "I vow to always listen to you talk about how your day went. And try not to give you solutions when all you need is for me to empathize and be your best friend, and listen to you vent out.",
+        imageUrl: "137.jpg",
+        backTitle: "Problem Listener",
+        backMessage: "Not Problem Solver"
+      },
+      {
+        id: 138,
+        topic: "Early Vows",
+        compliment: "Vow 26",
+        desc: "I vow to take you to nice places whenever we can and travel as much as possible. We'd follow the 2/2/2 principle. Every 2 weeks a date, every 2 months a weekend outing, and every 2 years a trip! I would want to go all around the world only with you.",
+        imageUrl: "138.jpg",
+        backTitle: "Mr & Mrs. Worldwide",
+        backMessage: "Anywhere Only With You"
+      },
 
   ];
 
